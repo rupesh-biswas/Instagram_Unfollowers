@@ -57,10 +57,12 @@ class InstaBot:
 
 
 if __name__=="__main__":
-    usrname = rupeshbiswas #sys.argv[1]
-    psswrd = rupesh12520 #sys.argv[2]
+    usrname = sys.argv[1]
+    psswrd =  sys.argv[2]
     my_bot=InstaBot(usrname,psswrd)
     unfollowers=my_bot.get_unfollowers()
     print(unfollowers)
-    df=pd.DataFrame(columns='unfollowers')
-    df.to_csv('unfollowers')
+    df=pd.DataFrame(unfollowers, columns=['unfollowers'])
+    df=df.drop([0,1])
+    df=df.reset_index(drop=True)
+    df.to_csv('unfollowers.csv')
