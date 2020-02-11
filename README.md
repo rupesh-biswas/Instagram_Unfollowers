@@ -21,4 +21,4 @@ Instagram Unfollowers Fetcher is selenium based webscraper which gives a list of
   3. A csv named **Unfollowers.csv** will be generated in the same direcory. 
 
 **Note:**
-> You will need to temporarily disable **Two-Faactor Authentication** in Instagram Settings.
+> You will need to temporarily disable **Two-Factor Authentication** in Instagram Settings.
