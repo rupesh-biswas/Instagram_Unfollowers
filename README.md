@@ -4,8 +4,8 @@
 
 Instagram Unfollowers Fetcher is selenium based webscraper which gives a list of people you follow on Instagram who are not following you back.
 
-  - Requirements
-  - How to run
+  - [Requirements](https://github.com/rupesh-biswas/Instagram_Unfollowers#requirements)
+  - [How to run](https://github.com/rupesh-biswas/Instagram_Unfollowers#How-to-run)
 
 # Requirements
   - Python3 (https://www.python.org/downloads/)
